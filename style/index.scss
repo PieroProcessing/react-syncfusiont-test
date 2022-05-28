@@ -1,0 +1,20 @@
+ul {
+  padding: 0;
+  li {
+    text-decoration: none;
+    list-style-type: none;
+  }
+}
+.e-grid {
+  margin: 3rem;
+  & .e-altrow {
+    background-color: #dddddd;
+  }
+}
+.e-row[aria-selected='true'] .e-customizedExpandcell {
+  background-color: #e0e0e0;
+}
+
+.e-grid.e-gridhover tr[role='row']:hover {
+  background-color: #eee;
+}
